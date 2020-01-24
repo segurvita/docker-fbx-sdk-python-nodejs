@@ -21,5 +21,5 @@ pyShell.end(function (err, code, signal) {
     if (err) {
         console.error(err);
     }
-    console.log('The exit code was: ' + code);
+    console.log('Python exited with code ' + code);
 });

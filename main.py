@@ -5,7 +5,7 @@ def list_reader_format(manager):
     print('# FBX SDK can read the following formats.')
     for formatIndex in range(manager.GetIOPluginRegistry().GetReaderFormatCount()):
         description = manager.GetIOPluginRegistry().GetReaderFormatDescription(formatIndex)
-        print(formatIndex, description)
+        print format(formatIndex, '02x'), description
 
 
 def main():
