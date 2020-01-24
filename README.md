@@ -1,8 +1,10 @@
 # docker-fbx-sdk-python-nodejs
 
-<div style="text-align:right">Language: <i>English</i> | <a href="README_JA.md">日本語</a></div>
+<div style="text-align:right">Language: <i>English</i> | <a href="https://github.com/segurvita/docker-fbx-sdk-python-nodejs/blob/master/README_JA.md">日本語</a></div>
+A docker image to run FBX SDK Python with Node.js.
 
-A container to run FBX SDK Python with Node.js
+This docker image is published on Docker Hub below.
+https://hub.docker.com/r/seguropus/fbx-sdk-python-nodejs
 
 
 
@@ -61,4 +63,4 @@ pyShell.on('message', (message) => {
 
 # Licensing
 
-The FBX SDK Python is under Autodesk License (see [License.txt](./License.txt))
+The FBX SDK Python is under Autodesk License (see [License.txt](https://github.com/segurvita/docker-fbx-sdk-python-nodejs/blob/master/License.txt))

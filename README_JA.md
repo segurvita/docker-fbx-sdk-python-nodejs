@@ -1,8 +1,14 @@
 # docker-fbx-sdk-python-nodejs
 
-<div style="text-align:right">Language: <a href="README.md">English</a> | <i>日本語</i></div>
-
+<div style="text-align:right">Language: <a href="https://github.com/segurvita/docker-fbx-sdk-python-nodejs/blob/master/README.md">English</a> | <i>日本語</i></div>
 Node.jsからFBX SDK Pythonを実行するDockerイメージです。
+
+Docker Hubに公開しています。
+https://hub.docker.com/r/seguropus/fbx-sdk-python-nodejs
+
+技術的なことはQiitaに記事を書いていますので、詳しくはこちらをご覧ください。
+https://qiita.com/segur/items/5d068661b12a1e7717d2
+
 
 
 
@@ -61,4 +67,4 @@ pyShell.on('message', (message) => {
 
 # ライセンス
 
-FBX SDK PythonはAutodesk Licenseの下にあります。([License.txt](./License.txt)を参照)
+FBX SDK PythonはAutodesk Licenseの下にあります。（[License.txt](https://github.com/segurvita/docker-fbx-sdk-python-nodejs/blob/master/License.txt)を参照）
