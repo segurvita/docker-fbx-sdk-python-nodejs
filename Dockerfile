@@ -37,3 +37,14 @@ RUN rm /tmp/fbx20195_fbxpythonsdk_linux.tar.gz
 
 # Set NODE_PATH
 ENV NODE_PATH /usr/local/lib/node_modules
+
+# Install Poetry
+RUN curl -sSL \
+    https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | \
+    python
+
+# Add to PATH
+ENV PATH $PATH:/root/.poetry/bin
+
+# Disable virtualenvs
+RUN poetry config virtualenvs.create false
