@@ -1,4 +1,7 @@
 # docker-fbx-sdk-python-nodejs
+
+<div style="text-align:right">Language: <i>English</i> | <a href="README_JA.md">日本語</a></div>
+
 A container to run FBX SDK Python with Node.js
 
 
