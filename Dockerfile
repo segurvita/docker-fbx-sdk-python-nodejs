@@ -6,7 +6,14 @@ RUN apk update && \
     apk add \
     curl \
     libxml2 \
-    libstdc++
+    libstdc++ \
+    musl \
+    linux-headers \
+    gcc \
+    g++ \
+    make \
+    gfortran \
+    openblas-dev
 
 # Download FBX SDK
 RUN curl -L \
@@ -48,3 +55,6 @@ ENV PATH $PATH:/root/.poetry/bin
 
 # Disable virtualenvs
 RUN poetry config virtualenvs.create false
+
+# Disable pyc
+ENV PYTHONDONTWRITEBYTECODE 1
