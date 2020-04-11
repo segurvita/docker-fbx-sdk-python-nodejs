@@ -55,3 +55,6 @@ ENV PATH $PATH:/root/.poetry/bin
 
 # Disable virtualenvs
 RUN poetry config virtualenvs.create false
+
+# Disable pyc
+ENV PYTHONDONTWRITEBYTECODE 1
