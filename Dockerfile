@@ -6,7 +6,14 @@ RUN apk update && \
     apk add \
     curl \
     libxml2 \
-    libstdc++
+    libstdc++ \
+    musl \
+    linux-headers \
+    gcc \
+    g++ \
+    make \
+    gfortran \
+    openblas-dev
 
 # Download FBX SDK
 RUN curl -L \
